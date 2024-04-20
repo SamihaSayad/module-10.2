@@ -1,0 +1,19 @@
+ /* Descendant combinator */
+ div p {
+    color: rgb(207, 37, 156);
+  }
+
+  /* Child combinator */
+  ul > li {
+    font-weight: bold; color: blueviolet;
+  }
+
+  /* Adjacent sibling combinator */
+  h2 + p {
+    font-style: italic; color: rgb(28, 243, 171);
+  }
+
+  /* General sibling combinator */
+  h3 ~ p {
+    text-decoration: underline; color: blue;
+  }
